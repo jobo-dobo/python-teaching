@@ -14,15 +14,19 @@ DISK_FILE = "disk_file.txt"
 
 mem_dict = {}
 
+
 def write_to_memory(addr, val):
     mem_dict[addr] = val
+
 
 def write_to_disk(addr, val):
     with open(DISK_FILE, "a") as f:
         f.write(f'"{addr!s}" : {val!s}\n')
 
+
 def write_to_stdout(addr, val):
     print(f'"{addr!s}" : {val!s}')
+
 
 def main():
     memory_time = 0.0
