@@ -1,5 +1,3 @@
-
-
 def main():
     input_name = input("Enter name: ")
     print("Hello World!")
