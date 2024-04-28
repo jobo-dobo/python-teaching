@@ -1,0 +1,58 @@
+2024-02-03
+- mutability
+- data types
+	- floats + ints
+	- strings, lists - concatenation
+	- type casts
+
+2024-02-10
+- lists: indexing, slices
+- control flow
+	- if
+	- for (and range())
+	- break/continue
+	- match
+- functions
+
+2024-03-02
+- rudimentary hangman
+- dicts & sets
+
+
+2024-03-17
+- hangman
+	- picking a word
+	- guessing letters in the word
+- sets, in more detail
+	- distinctness
+	- set operations/operators
+	
+	
+2024-03-30
+- ordering in dicts
+- __repr__()& __str__()
+- script showing set operations
+
+
+2024-04-13
+- git
+	- types of changes
+	- staging + committing
+	- branching
+
+
+2024-04-27
+- sorting (requires __lt__())
+	- reverse=True for descending
+	- key functions
+- made namedtuple objects to demonstrate keys
+- one example of a list comprehension
+
+2024-05
+- list/dict/set comprehensions
+- more of hangman
+
+- hashability (defines __hash__(), look up tho, may involve __eq__?)
+
+Tasks:
+- figure out linter/formatter
