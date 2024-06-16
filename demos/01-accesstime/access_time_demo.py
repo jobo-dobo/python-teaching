@@ -5,6 +5,7 @@ Writing data to different places and timing it
 2. to files - to disk
 3. to stdout - other I/O (write only)
 """
+
 import time
 from random import randrange
 

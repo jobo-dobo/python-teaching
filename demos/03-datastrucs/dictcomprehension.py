@@ -16,7 +16,7 @@ def invert_dict(input_dict, exclude_keys=set()):
     Assumes that values are unique, otherwise
     the last key containing a value is what is
     inverted and put into the result.
-    
+
     args:
         - input_dict (dict)
         - exclude_keys (set): optional set of keys
@@ -25,16 +25,12 @@ def invert_dict(input_dict, exclude_keys=set()):
     returns:
         dict: inverted dict
     """
-    output_dict = {
-        v: k
-        for k, v in input_dict.items()
-        if k not in exclude_keys
-    }
+    output_dict = {v: k for k, v in input_dict.items() if k not in exclude_keys}
     sampler_ctr = 0
     for k in input_dict:
         if sampler_ctr % 3 == 0:
             exclude_keys.add(k)
-        sampler_ctr +=1
+        sampler_ctr += 1
     return output_dict
 
 

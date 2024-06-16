@@ -9,6 +9,7 @@ mydict = {
     "c": "c",
 }
 
+
 def hangman_game():
     is_running = True
     while is_running:
@@ -20,7 +21,7 @@ def hangman_game():
         # give player a guess
         input_letter = input("Guess a letter :3 : ")
         valid_letter = validate_input_letter(input_letter)
-        
+
         # guess result
         if valid_letter and valid_letter in goal_word:
             print("Success")
@@ -42,8 +43,6 @@ def validate_input_letter(input_letter):
         print(f'"{input_letter}" is not a valid letter (a-z)!')
         return None
     return input_letter.lower()
-    
-    
 
 
 if __name__ == "__main__":

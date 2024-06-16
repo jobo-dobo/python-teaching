@@ -4,7 +4,7 @@ import click
 @click.command()
 @click.argument("set1")
 @click.argument("set2")
-def operate_sets(set1,set2):
+def operate_sets(set1, set2):
     print("hi")
     # validate/convert to sets
     set1 = set(set1)

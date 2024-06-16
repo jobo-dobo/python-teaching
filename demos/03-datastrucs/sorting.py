@@ -25,6 +25,7 @@ MY_FRUIT_LIST = [
     DigitalFruit("Apple", 7, -1.0),
 ]
 
+
 def key_func(value):
     return value.fruit_type
 
