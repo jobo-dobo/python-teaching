@@ -60,5 +60,6 @@ HANGMANPICS = [
 
 HANGMANWORDS = """
 apple angel aggravating affable affirmation assassination alligator
-brain bucket booger bouncer crocodile creature camouflage
+brain bucket booger bouncer crocodile creature camouflage debutante
+distant drudgery deathlike doldrums electricity eventuality 
 """.split()
